@@ -1,0 +1,18 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 43: expected statement.
+    p_name = renpy.input("What's your name?")
+           ^
+
+File "game/script.rpy", line 44: expected statement.
+    p_name = p_name.strip()
+           ^
+
+File "game/script.rpy", line 46: expected statement.
+    p_name = "PLII"
+           ^
+
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Tue Mar 25 14:58:32 2025
