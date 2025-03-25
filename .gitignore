@@ -1,176 +1,176 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# macOS-related files
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# C extensions
-*.so
+# Windows-related files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# Python related files.
+*.pyc
+*.pyo
+*.egg-info
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# Editor/tool files.
+*~
+*.bak
+.gdb_history
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Compiled Ren'Py files.
+*.rpyc
+*.rpyb
+*.rpymc
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
+# Ren'Py log files.
+log.txt
+errors.txt
+traceback.txt
+lint.txt
 
-# Translations
-*.mo
-*.pot
+# Created directories.
+saves/
+tmp/
+cache/
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+# Executables.
+/renpy.exe
+/renpy2.exe
+/renpy3.exe
+/renpy-32.exe
 
-# Flask stuff:
-instance/
-.webassets-cache
+/renpy.sh
+/renpy2.sh
+/renpy3.sh
 
-# Scrapy stuff:
-.scrapy
+/renpy.app
+/renpy2.app
+/renpy3.app
 
-# Sphinx documentation
-docs/_build/
+/7z.sfx
 
-# PyBuilder
-.pybuilder/
-target/
+# Libraries.
+/lib
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Platforms.
+/rapt
+/rapt2
+/rapt3
 
-# IPython
-profile_default/
-ipython_config.py
+/renios
+/renios2
+/renios3
 
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
+/web
+/web2
+/web3
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
+# Docs.
+/sphinx/source/inc
+/sphinx/source/thequestion.rst
+/doc
+/doc-web
+/LICENSE.txt
 
-# UV
-#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#uv.lock
+# Gui template.
+/gui/game/gui
 
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
+# Editors.
+/jedit
+/atom
+/vscode
 
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#pdm.lock
-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
-#   in version control.
-#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
-.pdm.toml
-.pdm-python
-.pdm-build/
+# Generated source.
+/renpy/vc_version.py
+/module/gen/
+/module/gen3/
+/module/gen-static/
+/module/gen3-static/
+/tutorial/game/tutorial_director.rpy
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
+# Module build.
+/module/build
+/module/dist
+/module/emscripten-static
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+# Download target.
+/dl
 
-# SageMath parsed files
-*.sage.py
+# Pygame_sdl2.
+/pygame_sdl2
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# Updater.
+update.pem
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Steam.
+steam_appid.txt
+/steamapi.py
 
-# Rope project settings
-.ropeproject
+# Android.
+*.keystore
 
-# mkdocs documentation
-/site
+# Type analysis.
+/typings
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+# Live2D
+cubism
+CubismSdkForNative-4-*.zip
 
-# Pyre type checker
-.pyre/
+# Created files.
+/screenshot*
+.android.json
 
-# pytype static type analyzer
-.pytype/
+# Old files.
+/0old
 
-# Cython debug symbols
-cython_debug/
+# Works in progress, throwaway scripts, etc.
+/scratch
+/*-dists
+/c
+/cg
+/.vscode/launch.json
+/.vscode/tasks.json
 
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
 
-# Ruff stuff:
-.ruff_cache/
-
-# PyPI configuration file
-.pypirc
-
-.DS_STORE
+# Pyi Files (generated by scripts/generate_pyi.py)
+renpy/audio/filter.pyi
+renpy/audio/renpysound.pyi
+renpy/display/accelerator.pyi
+renpy/display/matrix.pyi
+renpy/display/quaternion.pyi
+renpy/display/render.pyi
+renpy/encryption.pyi
+renpy/gl2/gl2draw.pyi
+renpy/gl2/gl2mesh.pyi
+renpy/gl2/gl2mesh2.pyi
+renpy/gl2/gl2mesh3.pyi
+renpy/gl2/gl2model.pyi
+renpy/gl2/gl2polygon.pyi
+renpy/gl2/gl2shader.pyi
+renpy/gl2/gl2texture.pyi
+renpy/gl2/live2dmodel.pyi
+renpy/lexersupport.pyi
+renpy/pydict.pyi
+renpy/style.pyi
+renpy/style.pyi
+renpy/styledata/style_activate_functions.pyi
+renpy/styledata/style_functions.pyi
+renpy/styledata/style_hover_functions.pyi
+renpy/styledata/style_idle_functions.pyi
+renpy/styledata/style_insensitive_functions.pyi
+renpy/styledata/style_selected_activate_functions.pyi
+renpy/styledata/style_selected_functions.pyi
+renpy/styledata/style_selected_hover_functions.pyi
+renpy/styledata/style_selected_idle_functions.pyi
+renpy/styledata/style_selected_insensitive_functions.pyi
+renpy/styledata/styleclass.pyi
+renpy/styledata/stylesets.pyi
+renpy/text/ftfont.pyi
+renpy/text/hbfont.pyi
+renpy/text/textsupport.pyi
+renpy/text/texwrap.pyi
+renpy/uguu/gl.pyi
+renpy/uguu/uguu.pyi
